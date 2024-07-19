@@ -3234,7 +3234,7 @@ case 'runtime':
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `𝐌-𝐂𝐑𝐎𝐒𝐒😈`,
-😈                            thumbnailUrl: 'media/overlaid.jpg',
+😈                            thumbnailUrl: 'https://telegra.ph/file/18fba5fdd45eef1d7d43c.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
