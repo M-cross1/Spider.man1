@@ -3232,7 +3232,7 @@ case 'runtime':
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
-                            title: `${botname}`,
+                            title: `😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈`,
                             body: `𝐌-𝐂𝐑𝐎𝐒𝐒😈`,
                            thumbnailUrl: 'media/overlaid.jpg',
                             sourceUrl: global.link,
