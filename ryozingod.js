@@ -2270,6 +2270,7 @@ let itsmenu = `
 │⭔ ${prefix}autorecord on/off
 │⭔ ${prefix}autobio on/off
 │⭔ ${prefix}self
+│⭔ ${prefix}runtime
 │⭔ ${prefix}public
 │⭔ ${prefix}shutdown
 │⭔ ${prefix}addcase 
