@@ -3234,8 +3234,7 @@ case 'runtime':
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `𝐌-𝐂𝐑𝐎𝐒𝐒😈`,
-                           jpegThumbnail: fs.readFileSync(`./media/latx.png`)
-},
+                           thumbnailUrl: 'media/overlaid.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -3244,7 +3243,7 @@ case 'runtime':
                 }, {
                     quoted: m
                 })
-break
+                break
 //=================================================//
 case 'block':
 if (!isDeveloper) return joreply(mess.owner);
