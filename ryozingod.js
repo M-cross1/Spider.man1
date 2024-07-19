@@ -3224,6 +3224,26 @@ joreply('𝐌-𝐂𝐑𝐎𝐒𝐒🕷️😈 SET TO PRIVATE BOSS')
 }
 break
 //=================================================//
+case 'runtime':
+                let runtimetext = ` 😈𝐃𝐄𝐌𝐎𝐍 𝐌-𝐂𝐑𝐎𝐒𝐒😈 Have Been Running For ${runtime(process.uptime())}`
+                ryozingod.readMessages(m.chat, {
+                    text: runtimetext,
+                    contextInfo: {
+                        externalAdReply: {
+                            showAdAttribution: true,
+                            title: `${botname}`,
+                            body: `𝐌-𝐂𝐑𝐎𝐒𝐒😈`,
+😈                            thumbnailUrl: 'media/overlaid.jpg',
+                            sourceUrl: global.link,
+                            mediaType: 1,
+                            renderLargerThumbnail: true
+                        }
+                    }
+                }, {
+                    quoted: m
+                })
+break
+//=================================================//
 case 'block':
 if (!isDeveloper) return joreply(mess.owner);
 if(isGroup){
